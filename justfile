@@ -115,7 +115,7 @@ reload-browser name:
     #!/bin/sh 
     CURRENT_WINDOW=$(xdotool getactivewindow)
 
-    xdotool search --all --onlyvisible --desktop 3 --class {{name}} \
+    xdotool search --all --onlyvisible --class {{name}} \
         windowfocus sleep 0.1 key --window %@ 'F5'
 
     xdotool windowfocus --sync ${CURRENT_WINDOW}
