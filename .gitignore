@@ -1,0 +1,7 @@
+.sass-cache/*
+dist/*
+scratch/*
+node_modules/*
+
+web/backend/Cargo.lock
+**/*.rs.bk

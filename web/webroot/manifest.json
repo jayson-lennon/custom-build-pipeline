@@ -1,0 +1,9 @@
+{
+ "name": "Custom Pipeline",
+ "short_name": "Custom Pipeline",
+ "start_url": ".",
+ "display": "standalone",
+ "background_color": "#ffffff",
+ "theme_color": "#ffffff",
+ "description": "A page built with a custom pipeline"
+}
